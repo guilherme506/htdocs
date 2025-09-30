@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+form {
+    background-color: honeydew;
+    padding: 1,5 rem;
+    border-radius: 8px; 
+    width: fit-content;
+}
+input[type= 'submit']{
+    background-color: honeydew;
+    color: black;
+    padding: 0.70em 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+input[type= 'text']{
+    border: 1px solid white;
+    border-radius: 8px;
+}
+div{
+    margin-bottom: 10px;
+}   
+echo{
+    background-color: honeydew;
+    color: black;
+    padding: 0.70em 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}   

@@ -1,0 +1,49 @@
+Banco de dados 
+
+    create [objeto] == DML
+    alter [objeto] == DML
+    drop [objeto] == DML
+
+    insert == DML
+    update == DML
+    delete == DML
+    select == DQL 
+
+    padrao sql --Bancos ={oracle, Mysql, MQLite, Postgres, SQLServer, DB2, Ingress, LIbsSQL, HSQL} == 
+
+Aplicativos utiizados na aula 
+
+- DBeaver
+- XAMPP
+**********************************************
+create database morango;
+
+create table aluno(
+	cpf char(11) not null,
+	nome varchar(80) not null,
+	endereco varchar(300),
+	ddd char(2),
+	telefone char(9),
+	dtNAscimento date, 
+	primary key(cpf)
+);
+
+insert into aluno
+(cpf, nome, endereco, ddd, telefone, dtNascimento )
+values
+('12343333396','Gabriel do Santos', 'Rua dos Morangos N° 9', '62',
+'000040021', '2005-10-13');
+
+select cpf, nome, endereco, ddd, telefone, dtNascimento from aluno;
+
+select nome, count(*) from aluno
+where nome like '%santos'
+group by nome;
+
+create[objeto]
+
+insert into entidade [(campos] values (valores);
+update entidade set [campo = valor, ...] where condicao;
+delete from entidade where condicao;
+********************************88
+

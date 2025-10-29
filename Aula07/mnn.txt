@@ -47,3 +47,16 @@ update entidade set [campo = valor, ...] where condicao;
 delete from entidade where condicao;
 ********************************88
 
+comandos sql 
+select nome, count(*) from aluno
+where nome like '%santos'
+group by nome;
+
+create[objeto]
+
+insert into entidade [(campos] values (valores);
+update entidade set [campo = valor, ...] where condicao;
+delete from entidade where condicao;
+
+
+delete from aluno	

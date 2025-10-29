@@ -1,0 +1,25 @@
+create database inscricao;
+
+CREATE table aluno(
+	num_matricula char(8),
+	des_nome varchar(55),
+	des_curso varchar(20),
+	dat_nascimento date,
+	des_genero varchar(20),
+	des_email varchar(80), 
+	num_cep char(8)
+);
+
+CREATE TABLE endereco(
+	num_cep char(8),
+	logradouro varchar(80),
+	bairro varchar(40),
+	cod_cidade int
+)
+
+CREATE TABLE cidade(
+	cod_cidade int,
+	des_nome varchar(40),
+	sig_uf char(2)
+)
+    

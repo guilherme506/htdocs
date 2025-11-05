@@ -1,0 +1,5 @@
+GET = consultas;
+POST = excluir informação, incluindo; 
+PUT = alterar informação;
+PATCH = alterar informação;
+DELETE = excluir informação;

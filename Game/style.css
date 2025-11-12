@@ -1,0 +1,18 @@
+/* (mesmas regras visuais do exemplo anterior) */
+body { font-family: Arial, sans-serif; background:#faf8ef; text-align:center; }
+#board { display:inline-grid; grid-template-columns: repeat(4, 100px); gap:10px; background:#bbada0; padding:10px; border-radius:10px; margin-top:20px; }
+.tile { width:100px; height:100px; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:28px; border-radius:6px; background:#cdc1b4; }
+.tile-0 { background: transparent; }
+.tile-2 { background:#eee4da; color:#776e65; }
+.tile-4 { background:#ede0c8; color:#776e65; }
+.tile-8 { background:#f2b179; color:#f9f6f2; }
+.tile-16{ background:#f59563; color:#f9f6f2; }
+.tile-32{ background:#f67c5f; color:#f9f6f2; }
+.tile-64{ background:#f65e3b; color:#f9f6f2; }
+.tile-128{ background:#edcf72; color:#f9f6f2; }
+.tile-256{ background:#edcc61; color:#f9f6f2; }
+.tile-512{ background:#edc850; color:#f9f6f2; }
+.tile-1024{ background:#edc53f; color:#f9f6f2; }
+.tile-2048{ background:#edc22e; color:#f9f6f2; }
+#score{font-size:20px;margin-top:10px;}
+button{margin-top:12px;padding:8px 16px;}
